@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Love Story</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="stars"></div>
+
+<div class="hearts"></div>
+
+<div class="container">
+
+<section class="slide active">
+
+<img src="photo1.jpg" class="photo">
+
+<h1>You entered my life...</h1>
+
+<p>And everything became beautiful ❤️</p>
+
+</section>
+
+<section class="slide">
+
+<img src="photo2.jpg" class="photo">
+
+<h1>Your Smile</h1>
+
+<p>is my favourite place.</p>
+
+</section>
+
+<section class="slide">
+
+<div class="together">
+
+<img src="photo1.jpg">
+
+<img src="photo2.jpg">
+
+</div>
+
+<h1>Forever Together</h1>
+
+<p>Every moment with you is magical.</p>
+
+</section>
+
+<section class="slide ending">
+
+<h1>❤️ I Love You ❤️</h1>
+
+<h2>Forever & Ever</h2>
+
+<div class="ring"></div>
+
+</section>
+
+</div>
+
+<audio id="music" autoplay loop>
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
